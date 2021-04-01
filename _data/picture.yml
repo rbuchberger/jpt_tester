@@ -1,0 +1,16 @@
+media_queries:
+  full_width: 'min-width: 800px'
+
+presets:
+  default:
+    formats: [avif, webp, jp2, png, gif, original]
+    widths: [200, 400]
+    fallback_width: 200
+    format_quality:
+      avif: 50
+    sizes: 
+      full_width: 740px
+    size: 'calc(100vw - 30px)'
+    dimension_attributes: true
+    attributes:
+      img: 'style="width: 100%; height: auto;"'

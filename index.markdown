@@ -7,4 +7,4 @@ layout: home
 
 This is a deployment test for Jekyll Picture Tag.
 
-{% picture pestka.jpg 2:1 center jpt-mobile: pestka.jpg 1:1 center --alt Happy Puppy %}
+{% picture pestka.jpg %}
